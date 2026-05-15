@@ -119,7 +119,6 @@ diff --git a/src/windows/windows-host-session.vala b/src/windows/windows-host-se
 index 67f1f3ef..518cd256 100644
 --- a/src/windows/windows-host-session.vala
 +++ b/src/windows/windows-host-session.vala
-
 @@ -274,11 +274,11 @@ namespace Frida {
  		var stream_request = Pipe.open (t.local_address, cancellable);
  
@@ -166,4 +165,3 @@ index 03c219e6..a7720c3d 100644
  				assert_not_reached ();
 -- 
 2.42.0
-
